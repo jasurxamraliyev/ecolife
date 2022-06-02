@@ -1,10 +1,15 @@
 <template>
-  <div class="fit row  justify-around items-star content-start"><br><br>
-    <div class="q-mt-xl">
+  <div><br><br>
+   <div class="fit row  justify-around items-star content-start">
+      <div class="q-mt-xl">
        <Persinal/>
     </div>
     <div class="q-mt-xl">
        <Totalpej/>
+    </div>
+   </div>
+    <div style="height: 100px;">
+
     </div>
   </div>
 </template>
