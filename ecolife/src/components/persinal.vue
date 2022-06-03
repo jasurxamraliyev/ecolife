@@ -1,8 +1,8 @@
 <template>
   <div>
         <!-- bosh sarlavha -->
-      <div class="container row justify-center content-center shadow-up-14">
-        <div class="content q-ml-md  items-center"><br>
+      <div class="container br-10px w-81pr row justify-center content-center shadow-up-14 q-pb-xl">
+        <div class=" w-650px h-550px q-ml-md  items-center"><br>
             <div class="contact text-h5 text-weight-bolder">
               1 Personal Information
             </div>
@@ -10,28 +10,28 @@
                   <br>
                 <form>
                   <div class="q-mt-xl q-ml-md items-start content-start">
-                    <q-input type="text" class="input-text" v-model="text" label="Name" :dense="dense" />
-                    <q-input  type="text" class="input-text" v-model="text1" label="Surname" :dense="dense" />
+                    <q-input type="text" class="w-90pr mb-40px" v-model="text" label="Name" :dense="dense" />
+                    <q-input  type="text" class="w-90pr mb-40px" v-model="text1" label="Surname" :dense="dense" />
                   </div>
                 </form>
 
-                <div class="q-mt-xl q-ml-md ">
+                <div class="q-mt-xl q-ml-md  ">
                   <form>
-                    <q-input style="width:90%" type="number"  v-model="number" label="Number" :dense="dense" />
+                    <q-input class="w-90pr" type="number"  v-model="number" label="Number" :dense="dense" />
                   </form>
                 </div>
 
-               <div class="q-mt-xl inp-1 q-ml-md">
+               <div class="q-mt-xl w-90pr q-ml-md">
                   <form>
                    <q-input  type="textarea"  v-model="textarea" label="Location" :dense="dense" />
                   </form>
               </div>
                 <br>
-               <div class=" row justify-center">
+               <div class=" row q-mt-md justify-center">
                   <q-btn color="secondary" label="Send Message" />
                </div><br><br>
               <!-- inputlar tugashi -->
-        </div><br><br>
+        </div><br>
       </div>
        <!-- bosh sarlavha tugashi -->
   </div>
@@ -47,25 +47,9 @@ export default {
       textarea: ref(''),
       dense: ref(true)
     }
+    ipi:[
+      {nomi:'kimdur'}
+    ]
   }
 }
 </script>
-<style scoped>
-.container{
-  width: 81%;
-  height: auto;
-  border-radius: 8px;
-}
-.content{
-  width: 650px;
-  height: 550px;
-}
-.input-text{
-  width: 90%;
-  margin-bottom: 40px;
-}
-.inp-1{
-  width: 90%;
-}
-
-</style>
