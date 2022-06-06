@@ -13,9 +13,9 @@
             <span class="q-ml-xl">Prices Drop</span>
             <span class="q-ml-xl">Contact us</span>
             <q-space/>
-             <q-icon  name="lock"/>
-             <q-icon name="search" class="q-ml-md"/>
-        </div>
+             <q-icon size="25px" name="search" class="q-mr-md"/>
+             <q-icon size="25px" name="lock"/><strong class="mt-3px mr-10px">$0.00</strong>
+      </div>
 
       </q-toolbar>
     </q-header>
