@@ -5,7 +5,8 @@
       <div class="content bg-grey">
            <CompImg/>
            <!-- <CompPopular/> -->
-           <CompFeatured/>
+           <!-- <CompFeatured/> -->
+           <CompLatest/>
       </div>
     </div>
   </div>
@@ -15,12 +16,14 @@ import CompCarusel from 'src/components/CompCarusel';
 import CompImg from 'src/components/CompImg';
 import CompPopular from '../components/CompPopular';
 import CompFeatured from 'src/components/CompFeatured';
+import CompLatest from 'src/components/CompLatest';
 export default {
     components: {
     CompCarusel,
     CompImg,
     CompPopular,
-    CompFeatured
+    CompFeatured,
+    CompLatest
 }
 }
 </script>

@@ -11,19 +11,21 @@
 
     <div class="w-100pr h-433px bg-red  row wrap justify-between items-start content-start">
         <div class=" cart w-24pr h-40pr bg-grey-1 mt-22px row justify-center content-center"
-            v-for="cart in carts" :key="cart">
+            v-for="cart in carts"
+            :key="cart">
             <div class="w-93pr h-90pr row  justify-between items-center content-center">
                 <div class="w-41pr h-77pr">
                     <img class="w-90pr h-100pr"
                      :src="cart.src" alt="">
                 </div>
-
                 <div class="text w-55pr h-77pr">
                    <div>
-                      <a class="a fs-12px" href="">{{cart.studio}}</a>
+                      <a class="a fs-12px"
+                       href="">{{cart.studio}}</a>
                    </div>
                     <div>
-                      <a class="a text-weight-bold" href="">{{cart.juicy}}</a>
+                      <a class="a text-weight-bold"
+                       href="">{{cart.juicy}}</a>
                     </div>
                     <div class="row items-center">
                       <q-icon :name="cart.icon" color="yellow" size="17px" />
