@@ -1,14 +1,14 @@
 <template>
   <div><br><br>
-   <div class="fit row  justify-around items-star content-start">
+   <div class="fit row col-12  justify-around items-star content-start">
+      <div class="w-50pr mobile-hide">
+        <Persinal/>
+      </div>
       <div class="q-mt-xl">
-       <Persinal/>
-    </div>
-    <div class="q-mt-xl">
-       <Totalpej/>
-    </div>
+        <Totalpej/>
+      </div>
    </div>
-    <div style="height: 100px;">
+    <div class="h-100px">
 
     </div>
   </div>

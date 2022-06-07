@@ -1,8 +1,8 @@
 <template>
   <div>
         <!-- bosh sarlavha -->
-      <div class="container br-10px w-81pr row justify-center content-center shadow-up-14 q-pb-xl">
-        <div class=" w-650px h-550px q-ml-md  items-center"><br>
+      <div class="  w-100pr container br-10px w-81pr row justify-center content-center shadow-up-14 q-pb-xl">
+        <div class=" w-100pr h-550px q-ml-md  items-center"><br>
             <div class="contact text-h5 text-weight-bolder">
               1 Personal Information
             </div>
@@ -47,9 +47,7 @@ export default {
       textarea: ref(''),
       dense: ref(true)
     }
-    ipi:[
-      {nomi:'kimdur'}
-    ]
+
   }
 }
 </script>

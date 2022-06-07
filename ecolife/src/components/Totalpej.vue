@@ -29,7 +29,7 @@
               <div>Subtotal</div>
               <div >$33.41</div>
             </div>
-            <div :key="suma" class="row justify-between text-subtitle2 q-ml-sm q-mr-sm">
+            <div  class="row justify-between text-subtitle2 q-ml-sm q-mr-sm">
               <div>Shipping</div>
               <div>$7.00</div>
             </div><br>
