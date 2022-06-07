@@ -6,7 +6,9 @@
            <CompImg/>
            <!-- <CompPopular/> -->
            <!-- <CompFeatured/> -->
-           <CompLatest/>
+           <!-- <CompLatest/> -->
+            <!-- <CompWemake/> -->
+            <CompHotdeals/>
       </div>
     </div>
   </div>
@@ -17,13 +19,17 @@ import CompImg from 'src/components/CompImg';
 import CompPopular from '../components/CompPopular';
 import CompFeatured from 'src/components/CompFeatured';
 import CompLatest from 'src/components/CompLatest';
+import CompWemake from 'src/components/CompWemake.vue';
+import CompHotdeals from 'src/components/CompHotdeals.vue';
 export default {
     components: {
     CompCarusel,
     CompImg,
     CompPopular,
     CompFeatured,
-    CompLatest
+    CompLatest,
+    CompWemake,
+    CompHotdeals
 }
 }
 </script>
