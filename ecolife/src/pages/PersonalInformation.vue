@@ -1,14 +1,25 @@
 <template>
-  <div><br><br>
-   <div class="fit row col-12  justify-around items-star content-start">
-      <div class="w-50pr mobile-hide">
+  <div>
+    <div class="bg-grey w-100pr h-90px"></div>
+    <br><br>
+   <div class="fit row justify-around">
+      <div class=" md w-45pr mobile-hide">
         <Persinal/>
       </div>
-      <div class="q-mt-xl">
+      <div class=" md w-40pr q-mt-xl">
         <Totalpej/>
       </div>
    </div>
-    <div class="h-100px">
+    <div class=" justify-around  row  xs w-100pr ">
+      <div class="w-90pr">
+        <Persinal/>
+      </div>
+    </div>
+     <div class="row justify-around xs w-100pr q-mt-xl">
+        <Totalpej/>
+    </div>
+    <br><br>
+    <div class="h-400px bg-grey w-100pr">
 
     </div>
   </div>

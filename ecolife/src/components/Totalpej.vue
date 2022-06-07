@@ -1,5 +1,5 @@
 <template>
-  <div class="container w-300px br-6px shadow-up-14">
+  <div class="container w-70pr br-6px shadow-up-14">
         <div class="contier w-100pr q-pt-sm">
           <div class="q-ml-sm  q-mr-sm text-subtitle2">2 items</div>
               <q-list class="rounded-borders"/>
