@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <div class="w-100pr h-70px  bg-green  content-center">
+  <div class="q-mt-xl">
+    <div class="w-100pr h-70px  content-center">
       <div class="text-h5 mt-10px">
          Featured Products
       </div>
-      <div class="text-grey-1 ">
+      <div class="text-grey ">
          Add featured products to weekly line up
       </div>
     </div>
 
-    <div class="w-100pr h-433px bg-red  row wrap justify-between items-start content-start">
-        <div class=" cart w-24pr h-40pr bg-grey-1 mt-22px row justify-center content-center"
+    <div class="w-100pr h-433px bg-white  row wrap justify-between items-start content-start">
+        <div class=" cart w-24pr h-40pr  mt-22px row justify-center content-center"
             v-for="cart in carts"
             :key="cart">
             <div class="w-93pr h-90pr row  justify-between items-center content-center">
@@ -20,11 +20,11 @@
                 </div>
                 <div class="text w-55pr h-77pr">
                    <div>
-                      <a class="a fs-12px"
+                      <a class="a fs-12px text-grey"
                        href="">{{cart.studio}}</a>
                    </div>
                     <div>
-                      <a class="a text-weight-bold"
+                      <a class="a text-subtitle1 text-weight-bold text-black"
                        href="">{{cart.juicy}}</a>
                     </div>
                     <div class="row items-center">
@@ -35,8 +35,8 @@
                       <q-icon :name="cart.icon" color="yellow" size="17px" />
                    </div>
                    <div>
-                   <del>{{cart.del}}</del>
-                   <span class="ml-5px">{{cart.span}}</span>
+                   <del class="text-grey">{{cart.del}}</del>
+                   <span class="ml-5px text-dark text-subtitle1">{{cart.span}}</span>
                    </div>
                </div>
             </div>
@@ -128,7 +128,7 @@ export default {
 </script>
 <style scoped>
 .cart{
-  border: 2px solid grey;
+  border: 1px solid rgb(229, 228, 228);
 }
 .a{
  text-decoration: none;

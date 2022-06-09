@@ -1,15 +1,24 @@
 <template >
   <div>
     <CompCarusel/>
-    <div class="container   row wrap justify-center">
-      <div class="content bg-grey">
+    <div class="container row wrap justify-center">
+      <div class="content ">
            <CompImg/>
-           <!-- <CompPopular/> -->
-           <!-- <CompFeatured/> -->
-           <!-- <CompLatest/> -->
-            <!-- <CompWemake/> -->
-            <CompHotdeals/>
+           <CompPopular/>
+          <CompHotdeals/>
       </div>
+    </div>
+    <div>
+        <q-img class="img w-100pr h-400px" src="http://demo.posthemes.com/pos_ecolife/layout2/modules/posslideshows/images/081b9c1b802e10a8438349ca084ec5451f955c8e_2_2.jpg">
+
+        </q-img>
+    </div>
+    <div class="container row wrap justify-center">
+      <div class="content">
+         <CompFeatured/>
+          <CompWemake/>
+          <CompLatest/>
+     </div>
     </div>
   </div>
 </template>
@@ -36,10 +45,11 @@ export default {
 <style>
 .container{
   width: 100%;
-  height: 1000px;
+  height: auto;
 }
 .content{
-  width: 1421px;
-  height: 1000px;
+  width: 92%;
+  height: 93%;
 }
+
 </style>
