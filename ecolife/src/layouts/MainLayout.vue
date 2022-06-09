@@ -7,11 +7,11 @@
            <img src="http://demo.posthemes.com/pos_ecolife/layout2/img/ecolife-responsive-prestashop-theme-logo-1580528177.jpg" alt="">
         </div>
         <div class="row w-85pr h-50px  mt-10px content-center">
-            <span class="q-ml-xl text-subtitle2 text-weight-bold text-black">Home</span>
-            <span class="q-ml-xl text-subtitle2 text-weight-bold text-black">Fresh Food</span>
-            <span class="q-ml-xl text-subtitle2 text-weight-bold text-black">Fresh Vegetable</span>
-            <span class="q-ml-xl text-subtitle2 text-weight-bold text-black">Prices Drop</span>
-            <span class="q-ml-xl text-subtitle2 text-weight-bold text-black">Contact us</span>
+            <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Home</span>
+            <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Fresh Food</span>
+            <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Fresh Vegetable</span>
+            <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Prices Drop</span>
+            <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Contact us</span>
             <q-space/>
              <q-icon color="black" size="25px" name="search" class="q-mr-md"/>
              <q-icon color="black" size="25px" name="lock"/><strong class="mt-3px mr-10px text-black text-weight-bold">$0.00</strong>
@@ -32,3 +32,13 @@
 
   </q-layout>
 </template>
+
+<script>
+
+</script>
+
+<style>
+.span{
+  cursor: pointer;
+}
+</style>
