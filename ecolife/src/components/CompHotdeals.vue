@@ -3,7 +3,7 @@
       <div class="w-100pr h-950px  row  justify-between items-start content-start">
           <div class="carusel w-35pr h-90pr bg-grey-1">
              <div class="w-100pr h-7pr bg-white">
-                  <div class="text-h5">
+                 <div class="text-h5">
                       Hot Deals
                   </div>
                   <div class="text-grey">

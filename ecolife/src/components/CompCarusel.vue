@@ -9,7 +9,13 @@
       :autoplay="autoplay"
       style="height: 600px;"
     >
-      <q-carousel-slide :name="1" img-src="http://demo.posthemes.com/pos_ecolife/layout2/modules/posslideshows/images/03c53493b66e3228091fb5027e13aa8e78207328_1_2.jpg" />
+      <q-carousel-slide :name="1" >
+        <q-img src="http://demo.posthemes.com/pos_ecolife/layout2/modules/posslideshows/images/03c53493b66e3228091fb5027e13aa8e78207328_1_2.jpg" >
+          <div style="background: none;">
+            fkebfkslfhvidoghin
+          </div>
+        </q-img>
+      </q-carousel-slide>
       <q-carousel-slide :name="2" img-src="http://demo.posthemes.com/pos_ecolife/layout2/modules/posslideshows/images/081b9c1b802e10a8438349ca084ec5451f955c8e_2_2.jpg" />
 
       <template v-slot:control>
@@ -36,3 +42,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+a{
+
+}
+</style>
