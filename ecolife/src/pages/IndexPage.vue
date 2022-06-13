@@ -2,7 +2,7 @@
   <div>
     <CompCarusel/>
     <div class="container row wrap justify-center">
-      <div class="content ">
+      <div class="content">
            <CompImg/>
            <CompPopular/>
           <CompHotdeals/>
