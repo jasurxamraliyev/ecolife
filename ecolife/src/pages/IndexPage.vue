@@ -1,55 +1,57 @@
 <template >
   <div>
-    <CompCarusel/>
+    <div>
+      <CompCarusel />
+    </div>
+    <div class="mt-340px"></div>
     <div class="container row wrap justify-center">
       <div class="content">
-           <CompImg/>
-           <CompPopular/>
-          <CompHotdeals/>
+        <CompPopular />
+        <CompHotdeals />
       </div>
     </div>
-    <div>
-        <q-img class="img w-100pr h-400px" src="http://demo.posthemes.com/pos_ecolife/layout2/modules/posslideshows/images/081b9c1b802e10a8438349ca084ec5451f955c8e_2_2.jpg">
 
-        </q-img>
+    <div class="w-100pr h-460px row">
+      <div class="w-50pr h-100pr">
+        <q-img src="http://demo.posthemes.com/pos_ecolife_fastfood/img/cms/5_1.jpg" />
+      </div>
+      <div class="w-50pr h-100pr">
+        <q-img src="http://demo.posthemes.com/pos_ecolife_fastfood/img/cms/6_1.jpg" />
+      </div>
     </div>
+
     <div class="container row wrap justify-center">
       <div class="content">
-         <CompFeatured/>
-          <CompWemake/>
-          <CompLatest/>
-     </div>
+        <CompFeatured />
+        <CompLatest />
+      </div>
     </div>
   </div>
 </template>
 <script>
-import CompCarusel from 'src/components/CompCarusel';
-import CompImg from 'src/components/CompImg';
-import CompPopular from '../components/CompPopular';
-import CompFeatured from 'src/components/CompFeatured';
-import CompLatest from 'src/components/CompLatest';
-import CompWemake from 'src/components/CompWemake.vue';
-import CompHotdeals from 'src/components/CompHotdeals.vue';
+import CompCarusel from "src/components/CompCarusel";
+import CompPopular from "../components/CompPopular";
+import CompFeatured from "src/components/CompFeatured";
+import CompLatest from "src/components/CompLatest";
+import CompHotdeals from "src/components/CompHotdeals.vue";
 export default {
-    components: {
+  components: {
     CompCarusel,
-    CompImg,
     CompPopular,
     CompFeatured,
     CompLatest,
-    CompWemake,
-    CompHotdeals
-}
-}
+    CompHotdeals,
+  },
+};
 </script>
 <style>
-.container{
+.container {
   width: 100%;
   height: auto;
 }
-.content{
+
+.content {
   width: 92%;
   height: 93%;
 }
-
 </style>
