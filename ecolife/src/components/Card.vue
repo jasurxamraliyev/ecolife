@@ -1,6 +1,6 @@
 <template>
   <div class="w-100pr">
-    <div class="text-h6 mt-50px ml-75px">
+    <div class="text-h6  ml-75px">
       Shopping Cart
     </div>
     <div  v-for="card in cards" :key="card" class="w-55pr ml-75px mt-50px h-120px">
@@ -39,6 +39,26 @@ export default {
   data() {
     return {
       cards: [
+        {
+          src: 'http://demo.posthemes.com/pos_ecolife_fastfood/375-cart_default/pizza-mushrooms.jpg',
+          span: ' Pizza Mushrooms',
+          number: '$21.51 ',
+          del: '$23.90',
+          num: '-10%',
+          iq: '$21.51',
+          icon: 'delete',
+
+        },
+        {
+          src: 'http://demo.posthemes.com/pos_ecolife_fastfood/375-cart_default/pizza-mushrooms.jpg',
+          span: ' Pizza Mushrooms',
+          number: '$21.51 ',
+          del: '$23.90',
+          num: '-10%',
+          iq: '$21.51',
+          icon: 'delete',
+
+        },
         {
           src: 'http://demo.posthemes.com/pos_ecolife_fastfood/375-cart_default/pizza-mushrooms.jpg',
           span: ' Pizza Mushrooms',
