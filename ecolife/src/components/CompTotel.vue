@@ -1,8 +1,8 @@
 <template> 
   <div> 
     <div class=" w-100pr br-6px shadow-up-14"> 
-      <div class=" w-100pr q-pt-sm"> 
-        <div class="q-ml-sm q-mr-sm text-subtitle2">2 items</div> 
+      <div v-for="son in sons" :key="son" class=" w-100pr q-pt-sm"> 
+        <div class="q-ml-sm q-mr-sm text-subtitle2">{{son.sonlar}} items</div> 
         <q-list class="rounded-borders" /> 
         <q-expansion-item expand-separator label="show details"> 
           <q-card  > 
@@ -70,6 +70,9 @@
 export default {
   data(){
     return{
+      sons:[
+        {sonlar:'2'}
+      ],
       items:[
         {shops:'Originals Kaval Windbreaker Winte Jacket 2',
         shop:'x1',
