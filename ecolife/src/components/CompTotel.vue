@@ -1,49 +1,48 @@
 <template> 
   <div> 
-    <div class="container w-100pr br-6px shadow-up-14"> 
-      <div class="contier w-100pr q-pt-sm"> 
+    <div class=" w-100pr br-6px shadow-up-14"> 
+      <div class=" w-100pr q-pt-sm"> 
         <div class="q-ml-sm q-mr-sm text-subtitle2">2 items</div> 
         <q-list class="rounded-borders" /> 
         <q-expansion-item expand-separator label="show details"> 
-          <q-card> 
-            <q-card-section> 
-              <div>Originals Kaval Windbreaker Winte Jacket 2</div> 
-              <div>x1</div> 
+          <q-card  > 
+            <q-card-section v-for="item in items" :key="item"> 
+              <div>{{item.shops}}</div> 
+              <div>{{item.shop}}</div> 
  
               <div class="row justify-between"> 
-                <div>Size: S</div> 
-                <div style="color: blueviolet">$21.51</div> 
+                <div>{{item.angel}}</div> 
+                <div style="color: blueviolet">{{item.size}}</div> 
               </div> 
- 
-              <div class="q-mt-md"> 
-                <div>Trans-Weight Hooded Wind and Water Resistant Shell</div> 
-                <div class="row justify-between q-mt-sm"> 
-                  <div>x1</div> 
-                  <div style="color: blueviolet">$11.90</div> 
-                </div> 
-              </div> 
+
             </q-card-section> 
           </q-card> 
         </q-expansion-item> 
-        <div class="row justify-between text-subtitle2 q-ml-sm q-mr-sm"> 
-          <div>Subtotal</div> 
-          <div>$33.41</div> 
-        </div> 
-        <div class="row justify-between text-subtitle2 q-ml-sm q-mr-sm"> 
-          <div>Shipping</div> 
-          <div>$7.00</div> 
-        </div> 
-        <br /> 
+        <div v-for="main in mains" :key="main">
+            <div class="row justify-between text-subtitle2 q-ml-sm q-mr-sm"> 
+              <div>Subtotal</div> 
+              <div>{{main.Subtotal}}</div> 
+            </div> 
+            <div class="row justify-between text-subtitle2 q-ml-sm q-mr-sm"> 
+              <div>Shipping</div> 
+              <div>{{main.Shipping}}</div> 
+            </div> 
+            </div>
+            <br /> 
       </div> 
-      <div class="row justify-between text-subtitle2 q-ml-sm q-mr-sm"> 
-        <div>Total (Tax Excl.)</div> 
-        <div>$40.41</div> 
-      </div> 
-      <div class="row justify-between text-subtitle2 q-ml-sm q-mr-sm"> 
-        <div>Taxes</div> 
-        <div>$0.00</div> 
-      </div> 
+      <div v-for="dont in donts" :key="dont">
+          <div class="row justify-between text-subtitle2 q-ml-sm q-mr-sm"> 
+            <div>Total (Tax Excl.)</div> 
+            <div>{{dont.total}}</div> 
+          </div> 
+          <div class="row justify-between text-subtitle2 q-ml-sm q-mr-sm"> 
+            <div>Taxes</div> 
+            <div>{{dont.text}}</div> 
+          </div> 
+      </div>
       <br /> 
+
+      
     </div><br> 
  
     <div> 
@@ -68,7 +67,30 @@
 </template> 
  
 <script> 
-export default {}; 
+export default {
+  data(){
+    return{
+      items:[
+        {shops:'Originals Kaval Windbreaker Winte Jacket 2',
+        shop:'x1',
+        angel:'Size: S',
+        size:'$21.51',
+        }        
+      ],
+      mains:[
+      { 
+         Subtotal:'$33.41',
+        Shipping:'$7.00'}
+      ],
+      donts:[
+        {
+          total:'$40.41',
+          text:'$0.00'
+        }
+      ]
+    }
+  }
+} 
 </script> 
  
 <style scoped> 
@@ -80,3 +102,4 @@ export default {};
   border-bottom: 1px solid grey; 
 } 
 </style>
+    
