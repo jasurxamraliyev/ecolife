@@ -8,6 +8,7 @@ const routes = [
       { path: 'packer', component: () => import('src/pages/ForPackerPage.vue') },
       { path: 'carrier', component: () => import('src/pages/ForCarrierPage.vue') },
       { path: 'report', component: () => import('src/pages/MonthlyReport.vue') },
+      {path: 'card', component: () => import('src/pages/Cart.vue')}
     ]
   },
 

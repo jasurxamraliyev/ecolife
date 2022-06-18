@@ -60,7 +60,7 @@
                         <span >
                             42425som
                         </span>
-                    </div>  
+                    </div>
                     <q-separator  size="2px" />
                 </div>
             </div>
@@ -72,11 +72,11 @@
 </template>
 <script>
 export default {
-    
+
 }
 </script>
 <style scoped>
-    .report{ 
-        box-shadow: 2px 2px 10px 1px grey; 
+    .report{
+        box-shadow: 2px 2px 10px 1px grey;
     }
 </style>
