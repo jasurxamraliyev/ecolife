@@ -5,7 +5,15 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: '/persanal', component: () => import('pages/PersonalInformation.vue') }
+      { path: 'packer', component: () => import('src/pages/ForPackerPage.vue') },
+      { path: 'carrier', component: () => import('src/pages/ForCarrierPage.vue') },
+      { path: 'report', component: () => import('src/pages/MonthlyReport.vue') },
+
+      { path: 'personal', component: () => import('src/pages/Personalpage.vue') },
+
+
+      {path: 'card', component: () => import('src/pages/Cart.vue')}
+
     ]
   },
 
