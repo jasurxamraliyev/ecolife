@@ -9,7 +9,7 @@
         </div>
         <div class="row w-85pr h-50px mt-10px content-center">
           <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Home</span>
-          <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Fresh Food</span>
+          <router-link to="/shop"><span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Cokies</span></router-link>
           <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Fresh Vegetable</span>
           <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Prices Drop</span>
           <span class="span q-ml-xl text-subtitle2 text-weight-bold text-black">Contact us</span>

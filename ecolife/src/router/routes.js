@@ -12,7 +12,8 @@ const routes = [
       { path: 'personal', component: () => import('src/pages/Personalpage.vue') },
 
 
-      {path: 'card', component: () => import('src/pages/Cart.vue')}
+      {path: 'card', component: () => import('src/pages/Cart.vue')},
+      {path: 'shop', component: () => import('src/pages/Shoppage.vue')}
 
     ]
   },
