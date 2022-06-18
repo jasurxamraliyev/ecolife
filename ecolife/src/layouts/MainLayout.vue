@@ -33,12 +33,16 @@
   </q-layout>
 </template>
 
-<script>
 
-</script>
+
+
+
+
+
 
 <style>
 .span{
   cursor: pointer;
 }
+
 </style>

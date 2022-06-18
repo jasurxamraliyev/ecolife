@@ -22,6 +22,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import CompCarusel from 'src/components/CompCarusel';
 import CompImg from 'src/components/CompImg';
