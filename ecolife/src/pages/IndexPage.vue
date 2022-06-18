@@ -28,6 +28,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import CompCarusel from "src/components/CompCarusel";
 import CompPopular from "../components/CompPopular";

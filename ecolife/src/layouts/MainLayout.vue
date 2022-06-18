@@ -94,6 +94,7 @@
   </q-layout>
 </template>
 
+
 <script>
 import { ref } from "vue";
 
@@ -106,6 +107,14 @@ export default {
   },
 };
 </script>
+
+
+
+
+
+
+
+
 
 <style>
 .span {
@@ -137,4 +146,5 @@ export default {
   line-height: 2.5;
   color: grey;
 }
+
 </style>
